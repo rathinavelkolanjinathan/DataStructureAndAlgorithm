@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class ValidPalindrome {
 
-  boolean validPalindrome(String s) {
+  public boolean validPalindrome(String s) {
     // Get the left and right pointers
     int left = 0;
     int right = s.length() - 1;

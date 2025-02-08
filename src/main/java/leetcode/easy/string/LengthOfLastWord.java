@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class LengthOfLastWord {
 
-  int lengthOfLastWord(String s) {
+  public int lengthOfLastWord(String s) {
 
     int count = 0;
 

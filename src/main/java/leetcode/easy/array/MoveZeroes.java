@@ -3,7 +3,7 @@ package leetcode.easy.array;
 /**
  * @author nikoo28 on 9/17/17
  */
-class MoveZeroes {
+public class MoveZeroes {
 
     public void moveZeroes(int[] nums) {
 

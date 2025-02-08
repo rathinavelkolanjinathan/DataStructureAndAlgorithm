@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class ReverseOnlyLetters {
 
-  String reverseOnlyLetters(String s) {
+  public String reverseOnlyLetters(String s) {
 
     // Convert the string to a character array
     char[] arr = s.toCharArray();

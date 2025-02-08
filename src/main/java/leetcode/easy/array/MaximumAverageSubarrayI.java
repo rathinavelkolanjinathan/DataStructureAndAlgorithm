@@ -2,7 +2,7 @@ package leetcode.easy.array;
 
 public class MaximumAverageSubarrayI {
 
-  double findMaxAverage(int[] nums, int k) {
+  public double findMaxAverage(int[] nums, int k) {
 
     // Get sum for starting window
     int sum = 0;

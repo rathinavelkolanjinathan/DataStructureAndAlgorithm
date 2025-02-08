@@ -7,9 +7,9 @@ import java.util.List;
  * Created by nikoo28 on 10/16/19 1:17 AM
  */
 
-class FindCommonCharacters {
+public class FindCommonCharacters {
 
-  List<String> commonChars(String[] A) {
+  public List<String> commonChars(String[] A) {
 
     List<String> result = new ArrayList<>();
 

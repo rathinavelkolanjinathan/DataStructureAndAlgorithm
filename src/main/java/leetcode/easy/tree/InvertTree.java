@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class InvertTree {
 
-  TreeNode invertTreeRecursive(TreeNode root) {
+  public TreeNode invertTreeRecursive(TreeNode root) {
 
     if (root == null)
       return null;
@@ -22,7 +22,7 @@ public class InvertTree {
     return root;
   }
 
-  TreeNode invertTree(TreeNode root) {
+  public TreeNode invertTree(TreeNode root) {
     if (root == null) {
       return null;
     }

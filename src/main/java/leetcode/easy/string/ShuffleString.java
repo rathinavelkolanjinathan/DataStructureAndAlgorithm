@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class ShuffleString {
 
-  String restoreString(String s, int[] indices) {
+  public String restoreString(String s, int[] indices) {
 
     // Character array to form final string
     char[] str = new char[s.length()];

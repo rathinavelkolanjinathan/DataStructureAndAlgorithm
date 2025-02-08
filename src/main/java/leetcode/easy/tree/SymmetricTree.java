@@ -9,9 +9,9 @@ import java.util.Queue;
  * Created by nikoo28 on 10/19/19 3:50 PM
  */
 
-class SymmetricTree {
+public class SymmetricTree {
 
-  boolean isSymmetric(TreeNode root) {
+  public boolean isSymmetric(TreeNode root) {
     Queue<TreeNode> q = new LinkedList<>();
     q.add(root);
     q.add(root);

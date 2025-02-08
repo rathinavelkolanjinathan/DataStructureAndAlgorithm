@@ -8,9 +8,9 @@ import java.util.Queue;
 /**
  * @author nikoo28 on 9/16/17
  */
-class MaximumDepthOfABinaryTree {
+public class MaximumDepthOfABinaryTree {
 
-  int maxDepth(TreeNode root) {
+  public int maxDepth(TreeNode root) {
 
     if (root == null)
       return 0;

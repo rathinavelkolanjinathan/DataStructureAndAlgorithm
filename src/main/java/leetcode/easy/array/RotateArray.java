@@ -4,7 +4,7 @@ package leetcode.easy.array;
  * Created by nikoo28 on 2019-07-21 14:59
  */
 
-class RotateArray {
+public class RotateArray {
 
   public void rotate(int[] nums, int k) {
 

@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class SameTree {
 
-  boolean isSameTree(TreeNode root1, TreeNode root2) {
+  public boolean isSameTree(TreeNode root1, TreeNode root2) {
 
     Queue<TreeNode> queue = new LinkedList<>();
     queue.add(root1);

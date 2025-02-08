@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class BackspaceStringCompare {
 
-  boolean backspaceCompare(String s, String t) {
+  public boolean backspaceCompare(String s, String t) {
     return getActual(s).equals(getActual(t));
   }
 

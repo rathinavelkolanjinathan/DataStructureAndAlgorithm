@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class PathSum {
 
-  boolean hasPathSum(TreeNode root, int sum) {
+  public boolean hasPathSum(TreeNode root, int sum) {
 
     if (root == null)
       return false;

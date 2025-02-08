@@ -2,7 +2,7 @@ package leetcode.easy.array;
 
 public class SquaresOfSortedArray {
 
-  int[] sortedSquares(int[] nums) {
+  public int[] sortedSquares(int[] nums) {
 
     int[] result = new int[nums.length];
 

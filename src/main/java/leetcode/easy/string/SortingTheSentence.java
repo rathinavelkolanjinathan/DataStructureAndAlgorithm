@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SortingTheSentence {
 
-    String sortSentence(String s) {
+    public String sortSentence(String s) {
 
         // Map to store words in correct order
         Map<Integer, String> indexWordMap = new HashMap<>();

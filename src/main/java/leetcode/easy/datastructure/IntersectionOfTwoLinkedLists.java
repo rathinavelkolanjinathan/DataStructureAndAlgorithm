@@ -9,9 +9,9 @@ import java.util.Set;
  * Created by nikoo28 on 2019-07-21 12:38
  */
 
-class IntersectionOfTwoLinkedLists {
+public class IntersectionOfTwoLinkedLists {
 
-  ListNode getIntersectionNodeSet(ListNode headA, ListNode headB) {
+  public ListNode getIntersectionNodeSet(ListNode headA, ListNode headB) {
 
     if (headA == null) return headA;
     if (headB == null) return headB;
@@ -36,7 +36,7 @@ class IntersectionOfTwoLinkedLists {
     return result;
   }
 
-  ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+  public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
     int lenA = getListLength(headA);
     int lenB = getListLength(headB);

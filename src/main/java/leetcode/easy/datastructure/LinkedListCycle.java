@@ -6,7 +6,7 @@ import util.ListNode;
  * Created by nikoo28 on 2019-07-21 12:55
  */
 
-class LinkedListCycle {
+public class LinkedListCycle {
 
   public boolean hasCycle(ListNode head) {
     if (head == null || head.next == null)

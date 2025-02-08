@@ -2,7 +2,7 @@ package leetcode.easy.string;
 
 public class ReverseWordsInAStringIII {
 
-  String reverseWords(String s) {
+  public String reverseWords(String s) {
 
     char[] arr = s.toCharArray();
 

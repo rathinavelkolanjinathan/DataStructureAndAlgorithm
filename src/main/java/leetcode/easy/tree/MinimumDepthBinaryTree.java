@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class MinimumDepthBinaryTree {
 
-  int minDepth(TreeNode root) {
+  public int minDepth(TreeNode root) {
     if (root == null)
       return 0;
 

@@ -6,9 +6,9 @@ import util.ListNode;
  * Created by nikoo28 on 2019-07-20 22:26
  */
 
-class PalindromeLinkedList {
+public class PalindromeLinkedList {
 
-    boolean isPalindrome(ListNode head) {
+    public boolean isPalindrome(ListNode head) {
 
         // Find the middle
         ListNode fast = head, slow = head;

@@ -3,7 +3,7 @@ package leetcode.easy.array;
 /**
  * @author nikoo28 on 9/16/17
  */
-class SingleNumber {
+public class SingleNumber {
 
   public int singleNumber(int[] nums) {
     int sing = nums[0];

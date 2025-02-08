@@ -4,7 +4,7 @@ import util.ListNode;
 
 public class MiddleOfTheLinkedList {
 
-  ListNode middleNode(ListNode head) {
+  public ListNode middleNode(ListNode head) {
 
     ListNode slowPtr = head;
     ListNode fastPtr = head;

@@ -6,9 +6,9 @@ import java.util.Stack;
  * Created by nikoo28 on 7/11/19 2:00 AM
  */
 
-class ValidParantheses {
+public class ValidParantheses {
 
-  boolean isValid(String s) {
+  public boolean isValid(String s) {
 
     Stack<Character> stack = new Stack<>();
 

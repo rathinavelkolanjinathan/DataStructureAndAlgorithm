@@ -8,24 +8,24 @@ import util.ListNode;
 
 class ReverseLinkedList {
 
-  public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode head) {
 
-    if (head == null || head.next == null)
-      return head;
+        if (head == null || head.next == null)
+            return head;
 
-    ListNode prev = null;
+        ListNode prev = null;
 
-    while (head.next != null) {
+        while (head.next != null) {
 
-      ListNode temp = head.next;
-      head.next = prev;
-      prev = head;
-      head = temp;
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
+        }
+
+        head.next = prev;
+        return head;
+
     }
-
-    head.next = prev;
-    return head;
-
-  }
 
 }

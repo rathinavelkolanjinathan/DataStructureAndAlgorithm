@@ -6,9 +6,9 @@ import java.util.*;
  * Created by nikoo28 on 7/4/19 2:50 PM
  */
 
-class TwoSum {
+public class TwoSum {
 
-    int[] twoSumBruteForce(int[] nums, int target) {
+    public int[] twoSumBruteForce(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
@@ -19,7 +19,7 @@ class TwoSum {
         throw new IllegalArgumentException("No two sum solution");
     }
 
-    int[] twoSumSorting(int[] nums, int target) {
+    public int[] twoSumSorting(int[] nums, int target) {
         int[] copyArray = Arrays.copyOf(nums, nums.length);
         Arrays.sort(copyArray);
 
@@ -48,7 +48,7 @@ class TwoSum {
         return result;
     }
 
-    int[] twoSumHashing(int[] nums, int target) {
+    public int[] twoSumHashing(int[] nums, int target) {
 
         // Create a HashMap
         Map<Integer, Integer> map = new HashMap<>();
